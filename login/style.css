@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+body {
+    background-image: url(../images/pexels-benjamin-suter-3617500.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 125%;
+}
+
+main {
+    height: 100vh;
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: auto 500px;
+    width: 50%;
+    padding: 150px;
+    text-align: center;
+}
+
+h2 {
+    color: #1F2544;
+    font-size: 50px;
+}
+
+#email {
+    font-size: 20px;
+    color: #492E87;
+
+}
+
+#email1 {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: #474F7A;
+    cursor: pointer;
+}
+
+#submit {
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#btn-submit {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: #1F2544;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#form-check-label {
+    padding-top: 10px;
+}
+
+#email-box {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn-fpswd {
+    border: none;
+    border-radius: 15px;
+    background-color: #474F7A;
+    color: #1F2544;
+    font-weight: 500;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#reg-fspwd {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 55px;
+    cursor: pointer;
+}
+.form-check-input{
+    cursor: pointer;
+}
+
+#sign {
+    width: 295px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
